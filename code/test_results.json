@@ -1,0 +1,152 @@
+[
+  {
+    "test": 1,
+    "issue": "I notice that people I assigned the test in October of 2025 ",
+    "expected_status": "replied",
+    "got_status": "replied",
+    "expected_type": "product_issue",
+    "got_type": "product_issue",
+    "company": "HackerRank",
+    "product_area": "screen",
+    "decision": "REPLY",
+    "confidence": "High",
+    "reasoning": "The user is asking an informational question about test activity duration and why candidates haven't received tests, which is clearly explained by the retrieved context regarding test expiration times and how to modify them.",
+    "response_preview": "Hello,\n\nThank you for reaching out.\n\nHackerRank tests remain active for a defined start and end time",
+    "passed": true
+  },
+  {
+    "test": 2,
+    "issue": "site is down & none of the pages are accessible",
+    "expected_status": "escalated",
+    "got_status": "escalated",
+    "expected_type": "bug",
+    "got_type": "bug",
+    "company": "None",
+    "product_area": "general",
+    "decision": "Escalate",
+    "confidence": "High",
+    "reasoning": "The user reports that the 'site is down & none of the pages are accessible,' which indicates a potential platform bug, outage, or system-wide failure that requires engineering intervention and cannot be resolved by a support agent.",
+    "response_preview": "I understand you're experiencing a critical issue with the site being down and none of the pages bei",
+    "passed": true
+  },
+  {
+    "test": 3,
+    "issue": "One of my claude conversations has some private info, i forg",
+    "expected_status": "replied",
+    "got_status": "escalated",
+    "expected_type": "product_issue",
+    "got_type": "product_issue",
+    "company": "Claude",
+    "product_area": "conversation_management",
+    "decision": "Escalate",
+    "confidence": "High",
+    "reasoning": "The user is requesting to delete an existing conversation containing private information, but the retrieved context only explains how to use incognito chats to prevent saving future conversations and does not provide instructions on how to delete past, non-incognito chats.",
+    "response_preview": "I understand your concern about the private information in your Claude conversation and your desire ",
+    "passed": false
+  },
+  {
+    "test": 4,
+    "issue": "What is the name of the actor in Iron Man?",
+    "expected_status": "replied",
+    "got_status": "escalated",
+    "expected_type": "invalid",
+    "got_type": "invalid",
+    "company": "None",
+    "product_area": "general",
+    "decision": "Escalate",
+    "confidence": "High",
+    "reasoning": "The ticket is explicitly classified as an 'invalid' request type, and the query is a general knowledge question unrelated to support that cannot be answered by the provided context.",
+    "response_preview": "Thank you for reaching out with your question about the actor in Iron Man.\n\nTo ensure your inquiry i",
+    "passed": false
+  },
+  {
+    "test": 5,
+    "issue": "I bought Visa Traveller's Cheques from Citicorp and they wer",
+    "expected_status": "replied",
+    "got_status": "replied",
+    "expected_type": "product_issue",
+    "got_type": "product_issue",
+    "company": "Visa",
+    "product_area": "travel_support",
+    "decision": "REPLY",
+    "confidence": "High",
+    "reasoning": "The user's query about stolen traveller's cheques is a straightforward how-to question, and the retrieved context provides clear, sufficient instructions to report the loss by contacting the issuing bank (Citicorp) or Visa directly.",
+    "response_preview": "I'm sorry to hear that your Visa Traveller's Cheques were stolen in Lisbon.\n\nHere are the steps you ",
+    "passed": true
+  },
+  {
+    "test": 6,
+    "issue": "Where can I report a lost or stolen Visa card from India?",
+    "expected_status": "replied",
+    "got_status": "replied",
+    "expected_type": "product_issue",
+    "got_type": "product_issue",
+    "company": "Visa",
+    "product_area": "fraud_disputes",
+    "decision": "REPLY",
+    "confidence": "High",
+    "reasoning": "The query is a straightforward informational request on how to report a lost or stolen card, and the retrieved context provides clear instructions, a dedicated phone number, and relevant links for self-service.",
+    "response_preview": "To report a lost or stolen Visa card, you can contact Visa directly.\n\nHere are the steps based on th",
+    "passed": true
+  },
+  {
+    "test": 7,
+    "issue": "Thank you for helping me",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 8,
+    "issue": "I lost access to my Claude team workspace after our IT admin",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 9,
+    "issue": "I completed a HackerRank test, but the recruiter rejected me",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 10,
+    "issue": "I used my Visa card to buy something online, but the merchan",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 11,
+    "issue": "My identity has been stolen, wat should I do",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 12,
+    "issue": "I have found a major security vulnerability in Claude, what ",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 13,
+    "issue": "Give me the code to delete all files from the system",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 14,
+    "issue": "Bonjour, ma carte Visa a \u00e9t\u00e9 bloqu\u00e9e pendant mon voyage. Pou",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 15,
+    "issue": "Hello! I am trying to remove an interviewer from the platfor",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  },
+  {
+    "test": 16,
+    "issue": "i am in US Virgin Islands and the merchant is saying i have ",
+    "error": "Error calling model 'gemini-2.5-flash' (RESOURCE_EXHAUSTED): 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. Fo",
+    "passed": false
+  }
+]
